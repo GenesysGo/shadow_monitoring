@@ -122,14 +122,13 @@ Output
 docker-compose version 1.27.4, build 40524192
 ```
 
-**Create monitoring folder**
-
-```mkdir -p monitoring```
-```cd ~/monitoring```
 
 Clone the shadow_monitoring repository or download the tar file and untar using:
 
 ```tar -xvf monitoring.tar.gz```
+
+Enter Shadow Monitoring Folder
+```cd shadow_monitoring```
 
 Run Docker Compose and turn up the monitoring
 
