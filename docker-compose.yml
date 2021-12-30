@@ -52,7 +52,6 @@ services:
     restart: unless-stopped
     volumes:
       - grafana-storage:/var/lib/grafana
-      - ./defaults.ini:/usr/share/grafana
     expose:
       - 3000
     networks:
