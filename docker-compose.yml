@@ -50,7 +50,7 @@ services:
     restart: unless-stopped
     volumes:
       - grafana-storage:/var/lib/grafana
-      - /home/sol/monitoring/defaults.ini:/usr/share/grafana
+      - ./defaults.ini:/usr/share/grafana
     expose:
       - 3000
     networks:
