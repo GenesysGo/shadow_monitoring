@@ -130,6 +130,10 @@ Clone the shadow_monitoring repository or download the tar file and untar using:
 Enter Shadow Monitoring Folder
 ```cd shadow_monitoring```
 
+Create a docker storage for Grafana so that its persistent during reboots:
+
+```docker volume create grafana-storage```
+
 Run Docker Compose and turn up the monitoring
 
 ```docker-compose up -d```
