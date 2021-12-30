@@ -106,7 +106,7 @@ First, confirm the latest version available in their releases page. At the time 
 
 The following command will download the 2.2.2 release and save the executable file at /usr/local/bin/docker-compose, which will make this software globally accessible as docker-compose:
 
-```sudo curl -L "https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose```
+```sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-linux-x86_64" -o /usr/local/bin/docker-compose```
  
 Next, set the correct permissions so that the docker-compose command is executable:
 
