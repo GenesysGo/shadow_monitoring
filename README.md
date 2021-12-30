@@ -144,10 +144,13 @@ Connect to grafana by going to the IP of the server with port 3000:
 Example:
 http:1.2.3.4:3000
 ```
+Login with default credentials
+
+```admin/admin```
 
 **Importing Prometheus as a dataset to Grafana**
 
-Hover over the gear button on the left panel near the bottom of the column and click **Data Sources**.  Click **Add Data Source** in the upper right hand side.  Select **Prometheus** from the list (will most likely be near the top).  If localhost:9090 does not work, try prometheus:9090 (the hostname prometheus will work because of the shadow docker-compose built docker network).  Add and save at the bottom. 
+Hover over the gear button on the left panel near the bottom of the column and click **Data Sources**.  Click **Add Data Source** in the upper right hand side.  Select **Prometheus** from the list (will most likely be near the top).  http://prometheus:9090 (the hostname prometheus will work because of the shadow docker-compose built docker network).  **ENSURE PORT IS 9090, NOT 9000**  Add and save at the bottom. 
 
 Navigate on the left to the Dashboards button.  This looks like 4 squares stacked.  Click import in the upper right of this screen.  Under import via grafana.com, type:
 ```1860```
