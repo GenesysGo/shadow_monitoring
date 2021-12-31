@@ -119,7 +119,7 @@ To verify that the installation was successful, you can run:
 You’ll see output similar to this:
 ```
 Output
-docker-compose version 1.27.4, build 40524192
+docker-compose version v2.2.2
 ```
 
 
